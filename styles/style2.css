@@ -1,6 +1,6 @@
 ﻿@import url("layout.css");
 body {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', Verdana, Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	background-color: #f2f2f7;
 	background-image: url("../images/background.gif");
@@ -14,10 +14,12 @@ body {
 #masthead {
 	text-align: center;
 	width: 698px;
-	border-top: 1px solid #dcdcdc;
-	border-right: 1px solid #a9a9a9;
-	border-bottom: 1px solid #808080;
-	border-left: 1px solid #a9a9a9;
+	/*border-top: 1px solid #dcdcdc;*/
+	/*border-right: 1px solid #a9a9a9;*/
+	/*border-bottom: 1px solid #808080;*/
+	/*border-left: 1px solid #a9a9a9;*/
+	padding-top: 5px;
+	padding-bottom: 10px;
 	background-color: #fafaff;
 }
 #navigation {
@@ -26,10 +28,10 @@ body {
 	width: 148px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-top: 1px solid #dcdcdc;
+	/*border-top: 1px solid #dcdcdc;
 	border-right: 1px solid #a9a9a9;
 	border-bottom: 1px solid #808080;
-	border-left: 1px solid #a9a9a9;
+	border-left: 1px solid #a9a9a9;*/
 	background-color: #fff;
 }
 #content {
@@ -39,10 +41,10 @@ body {
 	margin-bottom: 10px;
 	margin-left: 10px;
 	padding: 10px;
-	border-top: 1px solid #dcdcdc;
+	/*border-top: 1px solid #dcdcdc;
 	border-right: 1px solid #a9a9a9;
 	border-bottom: 1px solid #808080;
-	border-left: 1px solid #a9a9a9;
+	border-left: 1px solid #a9a9a9;*/
 	background-color: #fff;
 }
 #footer {
@@ -51,15 +53,16 @@ body {
 	width: 698px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-top: 1px solid #dcdcdc;
+	/*border-top: 1px solid #dcdcdc;
 	border-right: 1px solid #a9a9a9;
 	border-bottom: 1px solid #808080;
-	border-left: 1px solid #a9a9a9;
+	border-left: 1px solid #a9a9a9;*/
 	background-color: #fefeff;
 }
 /* Masthead Styles */
 #masthead h1 {
 	color: #3d6c87;
+	font-weight: 300;
 }
 #masthead h3 {
 	color: #5f8ea9;
@@ -83,9 +86,13 @@ body {
 	color: #3d6c87;
 	text-decoration: none;
 	display: block;
-	padding: 5px;
+	padding: 5px 5px 5px 5px;
 	border: 1px solid #fff;
 	background-color: #fff;
+	-webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
 }
 #navigation a:hover {
 	color: #fff;
@@ -96,10 +103,18 @@ body {
 /* Content Styles */
 #content h1,h2,h3,h4,h5,h6 {
 	color: #3d6c87;
+	font-weight: 300;
+	padding-left: 5px;
 }
 #content img {
-	padding: 5px;
-	border: 0px solid #808080;
+	padding-left: 5px;
+	border: 1px solid rgba(33, 33, 33, 0.1);
+	border-radius: 3px;
+}
+
+#content p {
+	padding-left: 5px;
+	line-height: 150%;
 }
 /* Footer Styles */
 #footer p {

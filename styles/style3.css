@@ -14,7 +14,7 @@ body {
 #masthead {
 	text-align: center;
 	width: 698px;
-	border: 1px solid #431;
+	/*border: 1px solid #431;*/
 	background-color: #fff;
 	background-image: url("../images/masthead.gif");
 	background-repeat: repeat;
@@ -26,8 +26,8 @@ body {
 	width: 148px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border: 1px solid #431;
-	background-color: #fff;
+	/*border: 1px solid #431;*/
+	/*background-color: #fff;*/
 }
 #content {
 	float: left;
